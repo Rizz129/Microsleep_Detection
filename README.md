@@ -15,7 +15,6 @@ Proyek ini bertujuan untuk mendeteksi microsleep (kantuk singkat) secara otomati
 | 3 | Ahmad Miftahur Rif'at | 2122600046 |
 | 4 | Dera Berlian | 2122600057 |
 
-</table>
 # Fitur
 1. Deteksi ngantuk secara real-time
 2. Peringatan otomatis menggunakan Alarm / Notifikasi saat terdeteksi microsleep
