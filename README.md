@@ -28,4 +28,5 @@ Berikut PPT hasil diskusi kami
 (https://www.canva.com/design/DAG4e6mXeN8/_utyp5YKum3Z0_JqF_aKsA/edit?utm_content=DAG4e6mXeN8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 # Video Demo
-Link Video:
+Link Video: 
+https://youtu.be/o5H1JNRKMT0
