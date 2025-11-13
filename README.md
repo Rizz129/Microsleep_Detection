@@ -88,8 +88,8 @@ Visualisasi yang Benar untuk 6 Titik Mata:
 
 |  **Teknologi** |  **Versi** |  **Fungsi Utama** |  **Performa / Keterangan** |
 |------------------|--------------|---------------------|-------------------------------|
-|  **Python**    | 3.8+         | Bahasa pemrograman utama | – |
-|  **OpenCV**     | 4.8.0+       | Video capture & image processing | 30–60 FPS |
+|  **Python**    | 3.8+         | Bahasa pemrograman utama | Compatible dengan semua library|
+|  **OpenCV**     | 4.8.0+       | Video capture & image processing | bervariasi by resolution |
 |  **MediaPipe** | Latest       | Face mesh detection (468 landmarks) | Real-time |
 |  **NumPy**      | 1.24.3+      | Komputasi matematis (EAR, EMA) | Optimized |
 |  **Tkinter**    | Built-in     | GUI framework | Native performance |
@@ -107,11 +107,13 @@ Visualisasi yang Benar untuk 6 Titik Mata:
 
 
 
-|  **Mode**                 |  **Hasil**      |  **Deskripsi**                                |
-|-----------------------------|------------------------|-------------------------------------------------|
-| **Developer Mode – Normal**      | [Tampilkan Gambar](#)  | Status **hijau**, tidak ada alert               |
-| **Developer Mode – Drowsy**      | [Tampilkan Gambar](#)  | Status **kuning**, dalam mode monitoring        |
-| **Developer Mode – Alert**       | [Tampilkan Gambar](#)  | Status **merah** + popup **warning**            |
+|  **Mode**               | **Screenshot**                                                                                      |  **Deskripsi**                                |
+|----------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| **User Mode – Normal**  | <img src="https://github.com/Rizz129/Microsleep_Detection/blob/ba5f000e06d23e6b2e914e8d7452317dceeec138/Hasil%20Percobaan/Gambar%204.png?raw=true" width="250"/> | **Hijau** tidak ada alert   |
+| **User Mode – Drowsy**  | <img src="https://github.com/Rizz129/Microsleep_Detection/blob/ba5f000e06d23e6b2e914e8d7452317dceeec138/Hasil%20Percobaan/Gambar%205.png?raw=true" width="250"/> | **Kuning** dalam mode monitoring        |
+| **User Mode – Alert**  | <img src="https://github.com/Rizz129/Microsleep_Detection/blob/ba5f000e06d23e6b2e914e8d7452317dceeec138/Hasil%20Percobaan/Gamabr%206.png?raw=true" width="250"/> | **Merah + pop up** warning dan disarankan istirahat |
+
+
 
 
 # PPT Presentasi
