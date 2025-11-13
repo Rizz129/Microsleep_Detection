@@ -103,10 +103,15 @@ Visualisasi yang Benar untuk 6 Titik Mata:
 |-----------------------------|------------------------|-------------------------------------------------|
 | **User Mode – Normal**      | [Tampilkan Gambar](#)  | Status **hijau**, tidak ada alert               |
 | **User Mode – Drowsy**      | [Tampilkan Gambar](#)  | Status **kuning**, dalam mode monitoring        |
-| **User Mode – Alert**       | [Tampilkan Gambar](#)  | Status **merah** + popup **warning**            |
-| **Engineer Mode**           | [Tampilkan Gambar](#)  | Video + **face mesh overlay**                   |
-| **Engineer Mode – Debug**   | [Tampilkan Gambar](#)  | Menampilkan data **EAR & frame analyzer**       |
-| **User Mode – Recovered**   | [Tampilkan Gambar](#)  | Status **kembali normal** (warna **hijau**)     |
+| **User Mode – Alert**       | [Tampilkan Gambar](#)  | Status **merah**  **warning**            |
+
+
+| 🧭 **Mode**                 | 🖼️ **Screenshot**      | 📝 **Deskripsi**                                |
+|-----------------------------|------------------------|-------------------------------------------------|
+| **Developer Mode – Normal**      | [Tampilkan Gambar](#)  | Status **hijau**, tidak ada alert               |
+| **Developer Mode – Drowsy**      | [Tampilkan Gambar](#)  | Status **kuning**, dalam mode monitoring        |
+| **Developer Mode – Alert**       | [Tampilkan Gambar](#)  | Status **merah** + popup **warning**            |
+
 
 # PPT Presentasi
 Berikut PPT hasil diskusi kami 
