@@ -53,72 +53,38 @@ EAR digunakan untuk **mengukur rasio aspek mata** berdasarkan jarak antar landma
 Semakin kecil nilai EAR, semakin besar kemungkinan mata dalam kondisi **terpejam**.
 
 ####  Ilustrasi Titik Landmark
-
-
-          P2 (eye[1])
-          |
-          |
-    P1----+---- P4 (eye[0] dan eye[3])
-          |
-          |
-          P6 (eye[5])
-
-          P3 (eye[2])
-          |
-          |
-    (horizontal line)
-          |
-          |
-         P5 (eye[4])
          
-Posisi yang benar:
-  
-        P2
-        |
-    P1--+--P4
-        |
-       P6
-       
-       P3
-       |
-    (center)
-       |
-       P5
-
-
 Formula EAR:
-EAR = (||P2 - P6|| + ||P3 - P5||) / (2 × ||P1 - P4||)
+left_idx = [33, 160, 158, 133, 153, 144]
 
-Dimana:
-- P1 = eye[0] (pojok kiri mata)
-- P2 = eye[1] (atas mata kiri)
-- P3 = eye[2] (atas mata kanan)
-- P4 = eye[3] (pojok kanan mata)
-- P5 = eye[4] (bawah mata kanan)
-- P6 = eye[5] (bawah mata kiri)
+Penjelasan:
+- **eye[0]** = Pojok KIRI mata (horizontal kiri)
+- **eye[1]** = ATAS mata (vertikal kiri atas)
+- **eye[2]** = ATAS mata (vertikal kanan atas)
+- **eye[3]** = Pojok KANAN mata (horizontal kanan)
+- **eye[4]** = BAWAH mata (vertikal kanan bawah)
+- **eye[5]** = BAWAH mata (vertikal kiri bawah)
 ```
-
-##  Visualisasi yang Benar untuk 6 Titik Mata:
+Visualisasi yang Benar untuk 6 Titik Mata:
 ```
-            P2 (atas kiri)       P3 (atas kanan)
-             *                    *
-            /                      \
-           /                        \
-    P1 *--                            --* P4
-     (kiri)                             (kanan)
-           \                        /
-            \                      /
-             *                    *
-              P6 (bawah kiri)     P5 (bawah kanan)
-
-Jarak yang dihitung:
-1. (Vertikal kiri): P2 ke P6
-2. (Vertikal kanan): P3 ke P5
-3. (Horizontal): P1 ke P4
+             eye[1]=160        eye[2]=158
+             *                  *
+            /                    \
+           /                      \
+    eye[0]=33                    eye[3]=133
+          *------------------------*
+           \                      /
+            \                    /
+             *                  *
+          eye[5]=144        eye[4]=153
+##  Formula EAR :
+-  A = ||eye[1] - eye[5]||  → Jarak vertikal KIRI (atas kiri ke bawah kiri)
+-  B = ||eye[2] - eye[4]||  → Jarak vertikal KANAN (atas kanan ke bawah kanan)
+-  C = ||eye[0] - eye[3]||  → Jarak horizontal (kiri ke kanan)
 
 
 # Teknologi yang digunakan
-## 🔧 Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 |  **Teknologi** |  **Versi** |  **Fungsi Utama** |  **Performa / Keterangan** |
 |------------------|--------------|---------------------|-------------------------------|
@@ -132,6 +98,15 @@ Jarak yang dihitung:
 # Diagram Alur
 
 # Hasil Tampilan 
+
+| 🧭 **Mode**                 | 🖼️ **Screenshot**      | 📝 **Deskripsi**                                |
+|-----------------------------|------------------------|-------------------------------------------------|
+| **User Mode – Normal**      | [Tampilkan Gambar](#)  | Status **hijau**, tidak ada alert               |
+| **User Mode – Drowsy**      | [Tampilkan Gambar](#)  | Status **kuning**, dalam mode monitoring        |
+| **User Mode – Alert**       | [Tampilkan Gambar](#)  | Status **merah** + popup **warning**            |
+| **Engineer Mode**           | [Tampilkan Gambar](#)  | Video + **face mesh overlay**                   |
+| **Engineer Mode – Debug**   | [Tampilkan Gambar](#)  | Menampilkan data **EAR & frame analyzer**       |
+| **User Mode – Recovered**   | [Tampilkan Gambar](#)  | Status **kembali normal** (warna **hijau**)     |
 
 # PPT Presentasi
 Berikut PPT hasil diskusi kami 
