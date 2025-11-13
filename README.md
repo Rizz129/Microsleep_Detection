@@ -99,14 +99,15 @@ Visualisasi yang Benar untuk 6 Titik Mata:
 
 # Hasil Tampilan 
 
-| 🧭 **Mode**                 | 🖼️ **Screenshot**      | 📝 **Deskripsi**                                |
-|-----------------------------|------------------------|-------------------------------------------------|
-| **User Mode – Normal**      | [Tampilkan Gambar](#)  | Status **hijau**, tidak ada alert               |
-| **User Mode – Drowsy**      | [Tampilkan Gambar](#)  | Status **kuning**, dalam mode monitoring        |
-| **User Mode – Alert**       | [Tampilkan Gambar](#)  | Status **merah**  **warning**            |
+|  **Mode**             |  **Hasil**                                                                                      |  **Deskripsi**                                |
+|--------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| **Developer Mode – Normal**   | <img src="https://github.com/Rizz129/Microsleep_Detection/blob/main/Hasil%20Percobaan/Gambar%201.png?raw=true" width="250"/> | Status **hijau**, tidak ada alert               |
+| **Developer Mode – Drowsy**   | <img src="https://github.com/Rizz129/Microsleep_Detection/blob/main/Hasil%20Percobaan/Gambar%202.png?raw=true" width="250"/> | Status **kuning**, dalam mode monitoring        |
+| **Developer Mode – Alert**    | <img src="https://github.com/Rizz129/Microsleep_Detection/blob/main/Hasil%20Percobaan/Gambar%203.png?raw=true" width="250"/> | Status **merah**, **warning**                   |
 
 
-| 🧭 **Mode**                 | 🖼️ **Screenshot**      | 📝 **Deskripsi**                                |
+
+|  **Mode**                 |  **Hasil**      |  **Deskripsi**                                |
 |-----------------------------|------------------------|-------------------------------------------------|
 | **Developer Mode – Normal**      | [Tampilkan Gambar](#)  | Status **hijau**, tidak ada alert               |
 | **Developer Mode – Drowsy**      | [Tampilkan Gambar](#)  | Status **kuning**, dalam mode monitoring        |
