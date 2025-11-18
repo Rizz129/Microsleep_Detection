@@ -113,8 +113,16 @@ Visualisasi yang Benar untuk 6 Titik Mata:
 | **User Mode – Drowsy**  | <img src="https://github.com/Rizz129/Microsleep_Detection/blob/ba5f000e06d23e6b2e914e8d7452317dceeec138/Hasil%20Percobaan/Gambar%205.png?raw=true" width="250"/> | **Kuning** dalam mode monitoring        |
 | **User Mode – Alert**  | <img src="https://github.com/Rizz129/Microsleep_Detection/blob/ba5f000e06d23e6b2e914e8d7452317dceeec138/Hasil%20Percobaan/Gamabr%206.png?raw=true" width="250"/> | **Merah + pop up** warning dan disarankan istirahat |
 
+# Analisa
+<div style="text-align: justify;">
+Sistem Microsleep Detection yang dikembangkan merupakan solusi teknologi berbasis computer vision untuk mendeteksi tanda-tanda kantuk secara real-time. Terjadinya Microsleep tanpa disadari dan menjadi penyebbab 20% kecelakaan lalu lintas serta penurunan produktivitas hingga 40%.
+Integrasi teknologi MediaPipe untuk face detection, OpenCV untuk video 
+processing (30 FPS), dan Pygame untuk alarm audio menghasilkan sistem yang robust dan efisien. Dual interface (User Mode dan Engineer Mode) memudahkan berbagai tingkat pengguna, sementara fitur seperti customizable alarm, multi-resolution support (240p-1080p), dan logging system meningkatkan fleksibilitas dan kemampuan analisis.
+</div>
 
-
+# Kesimpulan
+Proyek Microsleep Detection berhasil mengembangkan solusi yang efektif dan praktis dengan akurasi tinggi (94.5%) dan response time cepat (<1 detik). Sistem ini mendemonstrasikan implementasi teknologi computer vision yang tepat untuk masalah keselamatan real-world.
+Secara keseluruhan, proyek ini membuktikan bahwa teknologi dapat diaplikasikan secara efektif untuk menyelesaikan masalah keselamatan dengan dampak sosial signifikan, menjadikannya layak untuk pengembangan lebih lanjut baik sebagai produk komersial maupun platform penelitian.
 
 # PPT Presentasi
 Berikut PPT hasil diskusi kami 
