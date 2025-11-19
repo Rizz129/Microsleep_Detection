@@ -99,6 +99,17 @@ Visualisasi yang Benar untuk 6 Titik Mata:
 <div align="center">
   <img src="https://github.com/Rizz129/Microsleep_Detection/blob/308406df0e7d4abe0ed86c99c3d621bc10bdb642/WhatsApp%20Image%202025-11-18%20at%2022.46.44.jpeg" width="700">
 </div>
+Proses dimulai ketika program dijalankan. Pada tahap awal, sistem melakukan inisialisasi terhadap berbagai library yang dibutuhkan, seperti OpenCV untuk mengakses kamera, Mediapipe untuk mendeteksi wajah, Tkinter untuk membangun antarmuka GUI, NumPy untuk pengolahan data, serta Pygame untuk mengatur suara alarm. Setelah itu, program juga menyiapkan sejumlah variabel penting yang akan menjadi parameter kerja selama proses deteksi berlangsung, misalnya nilai ambang EAR, perhitungan waktu pejam mata, waktu reset, file alarm, serta pilihan resolusi kamera.
+
+Setelah seluruh komponen siap, GUI utama program ditampilkan dan sistem memasuki mode menunggu hingga pengguna menekan tombol “Mulai Deteksi”. Ketika tombol tersebut ditekan, kamera diaktifkan dan program mulai mengambil frame video secara terus-menerus. Setiap frame yang masuk akan dianalisis menggunakan Mediapipe FaceMesh untuk mendeteksi apakah wajah pengguna muncul di dalam tampilan kamera.
+
+Jika pada suatu frame wajah tidak terdeteksi, program akan menampilkan status “NOFACE”, mematikan alarm jika sedang menyala, dan menutup popup peringatan. Namun, bila wajah terdeteksi, sistem akan mengambil titik-titik landmark mata dan menghitung nilai EAR (Eye Aspect Ratio). Nilai ini kemudian dibandingkan dengan ambang batas yang telah ditentukan. Jika EAR masih berada di atas batas, berarti mata dalam kondisi normal. Sistem akan mengembalikan status ke NORMAL, mengatur ulang waktu pejam mata, mematikan alarm, dan menutup popup peringatan jika ada.
+
+Sebaliknya, jika nilai EAR berada di bawah ambang batas, berarti mata dalam kondisi terpejam. Pada kondisi ini, sistem akan menambahkan waktu pejam secara bertahap. Kemudian dilakukan pemeriksaan apakah waktu pejam tersebut telah melewati durasi tertentu, misalnya 1–2 detik. Jika waktu pejam masih di bawah batas, proses deteksi berlanjut seperti biasa. Namun bila waktu pejam melebihi ambang durasi, sistem menganggap pengguna mengalami MicroSleep. Dalam kondisi ini, alarm akan dinyalakan, counter deteksi MicroSleep ditambah, dan sebuah popup peringatan akan ditampilkan agar pengguna segera merespon.
+
+Sementara proses deteksi berlangsung, sistem juga memantau apakah pengguna menekan tombol STOP atau menutup program. Program juga mengevaluasi apakah wajah hilang dalam waktu yang terlalu lama, misalnya lebih dari 5 detik. Jika kondisi ini terjadi, maka dianggap sebagai potensi MicroSleep dan alarm kembali dinyalakan sebagai bentuk peringatan.
+
+Ketika pengguna menekan tombol STOP, sistem segera mematikan alarm, menutup kamera, menghentikan proses analisis frame, dan mengakhiri seluruh aktivitas program. Pada tahap ini, alur mencapai titik akhir dan program berhenti sepenuhnya.
 
 # Hasil Tampilan 
 
