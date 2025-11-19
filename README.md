@@ -97,7 +97,7 @@ Visualisasi yang Benar untuk 6 Titik Mata:
 
 # Diagram Alur
 <div align="center">
-  <img src="[https://github.com/Rizz129/Microsleep_Detection/blob/c90ffc05aec7b118aa8ea6919b58085b62da8220/Blue%20Modern%20Professional%20Organizational%20Chart%20Graph%20(2).png](https://github.com/Rizz129/Microsleep_Detection/blob/f953f2b6cc1571a7163146c316a3b4091862248d/WhatsApp%20Image%202025-11-18%20at%2022.46.44.jpeg)" width="700">
+  <img src="https://github.com/Rizz129/Microsleep_Detection/blob/308406df0e7d4abe0ed86c99c3d621bc10bdb642/WhatsApp%20Image%202025-11-18%20at%2022.46.44.jpeg" width="700">
 </div>
 
 # Hasil Tampilan 
