@@ -96,6 +96,9 @@ Visualisasi yang Benar untuk 6 Titik Mata:
 |  **Pygame**     | 2.5.0+       | Audio system untuk alarm | Low latency |
 
 # Diagram Alur
+<div align="center">
+  <img src="https://github.com/Rizz129/Microsleep_Detection/blob/c90ffc05aec7b118aa8ea6919b58085b62da8220/Blue%20Modern%20Professional%20Organizational%20Chart%20Graph%20(2).png" width="700">
+</div>
 
 # Hasil Tampilan 
 
